@@ -1,0 +1,24 @@
+:root {
+  --spcc-primary: #01012d;
+  --spcc-secondary: #ffb600;
+}
+
+.spcc-bg-primary {
+	background-color: var(--spcc-primary) !important;
+}
+
+.spcc-bg-secondary {
+	background-color: var(--spcc-secondary) !important;
+}
+
+.spcc-text-primary {
+	color: var(--spcc-primary) !important;
+}
+
+.spcc-text-secondary {
+	color: var(--spcc-secondary) !important;
+}
+
+.dtr-data {
+	overflow-wrap: anywhere !important;
+}
