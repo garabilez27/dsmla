@@ -5,10 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class User extends Model
+class RoleMenu extends Model
 {
     use HasFactory;
-
-    protected $table = 'tbl_users';
-    public $timestamp = 'false';
 }

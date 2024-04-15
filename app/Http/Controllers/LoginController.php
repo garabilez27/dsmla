@@ -26,7 +26,7 @@ class LoginController extends Controller
         }
 
         return back()->with([
-            'error' => $this->warningMessage(),
+            'error' => $this->warningMessage('The provided credentials do not match our records.'),
         ])->onlyInput('email');
     }
 }
