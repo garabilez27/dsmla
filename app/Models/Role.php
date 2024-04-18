@@ -10,5 +10,5 @@ class Role extends Model
     use HasFactory;
 
     protected $table = 'tbl_roles';
-    public $timestamp = 'false';
+    public $timestamps = false;
 }

@@ -2,8 +2,17 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
+
 abstract class Controller
 {
+    protected $userModel;
+
+    public function __construct()
+    {
+        $this->userModel = new User();
+    }
+
     protected function successMessage($message = 'Record has been added successfully.')
     {
         return [
